@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react'
+import { lazy } from 'react'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
 import { Route,Routes } from 'react-router-dom'
