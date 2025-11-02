@@ -11,6 +11,8 @@ function App() {
 
   return (
     <>
+  
+
       <Navbar/>
      
        <Routes>
@@ -19,6 +21,7 @@ function App() {
           <Route path='/basket' element={<Basket />} />
           <Route path='/login' element={<Login />} />
        </Routes>
+   
         
       
     </>
